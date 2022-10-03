@@ -1,0 +1,107 @@
+.hero .container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 6.6vh);
+    grid-gap: 10px;
+  }
+  .hero .box:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 9;
+  }
+  .hero .box:nth-child(2) {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+  .hero .box:nth-child(3) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 9;
+  }
+  .hero .box:nth-child(4) {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 9;
+  }
+
+.catgeory {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+.hero .box:nth-child(1) h2,
+.hero .box:nth-child(2) h2{
+  font-size: 20px;
+}
+
+.hero .box:nth-child(3) h2,
+.hero .box:nth-child(4) h2{
+  font-size: 18px;
+}
+
+  .hero .box:nth-child(1) .catgeory{
+    background-color: crimson;
+    border-bottom: 2px solid black;
+}   
+  .hero .box:nth-child(2) .catgeory{
+    background-color: #8f008f;
+    border-bottom: 2px solid #eb0000;
+}   
+  .hero .box:nth-child(3) .catgeory{
+    background-color: #088808;
+    border-bottom: 2px solid #8f0058;
+}   
+  .hero .box:nth-child(4) .catgeory{
+    background-color: #cf4201;
+    border-bottom: 2px solid #0004dd;
+}
+
+@media screen and (max-width: 768px) {
+  .hero .container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(18, 6vh);
+    grid-gap: 10px;
+  }
+  .hero .box:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+  .hero .box:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 10;
+  }
+  .hero .box:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 10;
+    grid-row-end: 15;
+  }
+  .hero .box:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 15;
+    grid-row-end: 20;
+  }
+
+.catgeory {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+}

@@ -1,0 +1,37 @@
+.single-main-section .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.single_main{
+    width: 75%;
+}
+.site-main{
+    width: 25%;
+    background-color: blanchedalmond;
+}
+
+h3.quote{
+    padding-left: 20px;
+    color: #736d7d;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+}
+.cover:nth-child(1) {
+    display: none;
+}
+/* @media screen and (max-width: 768px) {
+    main .container{
+        flex-direction: column !important;
+    }
+    
+    .main-contain{
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .side-contain{
+        width: 100%;
+        background-color: blanchedalmond;
+    }
+} */
