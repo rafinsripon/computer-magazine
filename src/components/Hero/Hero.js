@@ -12,6 +12,7 @@ const Hero = () => {
                 {
                     items.map(item => <Cart 
                     key={item.id}
+                    setItem={setItems}
                     item={item}/>)
                 }
                 </div>
